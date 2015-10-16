@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>  
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+         android:layout_width="fill_parent" android:layout_height="wrap_content"    
+         android:layout_marginRight="3.0dip" android:layout_weight="1.0"  
+         android:orientation="horizontal" android:descendantFocusability="blocksDescendants">   
+         <CheckBox android:id="@+id/isCheakBox1" android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"   
+             android:layout_alignParentLeft="true" />  
+         <!-- 日报图片 -->    
+            
+         <!--附件名称 -->    
+         <TextView  
+             android:id="@+id/className"  
+             android:layout_width="wrap_content"  
+             android:layout_height="wrap_content"  
+             android:layout_toRightOf="@id/isCheakBox1"  
+             android:text="Abbe Wang 's course" 
+             android:layout_centerVertical="true"  
+             android:textColor="#000000"  
+             android:textSize="20.0sp" />  
+          
+
+
+         <!--附件名称 -->    
+     </RelativeLayout>    

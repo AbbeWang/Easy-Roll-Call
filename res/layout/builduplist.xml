@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>  
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:orientation="horizontal"  
+     android:layout_width="fill_parent"  
+     android:layout_height="fill_parent"  
+     android:background="@drawable/bg2">  
+     
+     <RelativeLayout   
+             android:layout_width="fill_parent"   
+             android:layout_height="wrap_content" 
+             android:layout_marginTop="10dp"  
+             android:layout_alignParentTop="true">  
+             
+         <ImageButton android:id="@+id/exitAttachment"    
+             android:layout_width="35dp" android:layout_height="35dp"    
+             android:background="@drawable/log_out"    
+             android:focusable="false"   
+             android:layout_alignParentLeft="true" android:layout_marginLeft="10dp"
+             android:layout_marginTop="0dp"/> 
+             
+         <TextView android:id="@+id/all_check_btn"   
+             android:text="   Jim Zhang 's Class"
+             android:textSize="20dp"
+             android:textStyle="bold"
+             android:layout_toRightOf="@id/exitAttachment"
+             android:layout_width="wrap_content"   
+             android:layout_height="wrap_content"    
+             />
+         
+         <Button
+             android:id="@+id/check1"
+             android:text="Check attendance"
+             android:textSize="18dp"
+             android:layout_width="wrap_content"   
+             android:layout_height="wrap_content" 
+             android:layout_marginTop="35dp"   
+             android:layout_alignParentLeft="true"/>
+
+         <ImageButton
+             android:id="@+id/add1"
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             android:layout_alignParentTop="true"
+             android:background="@drawable/add"
+             android:focusable="false" />
+         
+     </RelativeLayout>
+     
+     
+         <ListView  
+             android:id="@id/android:list" 
+             android:layout_marginTop="100dp" 
+             android:layout_height="wrap_content"  
+             android:layout_width="fill_parent"  
+             android:fadingEdge="none"  
+             android:cacheColorHint="#00000000"/>  
+  </RelativeLayout>  

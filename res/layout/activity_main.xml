@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shouye"
+    >
+    //--定义一个文本框，绝对定位
+
+   
+    //文本编辑框
+
+
+<Button
+    android:id="@+id/basic_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="-28dp"
+    android:layout_y="346dp"
+    android:background="@drawable/denglu"/>
+<Button
+    android:id="@+id/basic_button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="130dp"
+    android:layout_y="346dp"
+    android:background="@drawable/zhuce" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="20dp"
+    android:layout_y="242dp"
+    android:text="学    号" />
+
+<EditText
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="52dp"
+    android:layout_x="75dp"
+    android:layout_y="217dp"
+    android:ems="10" >
+
+    
+</EditText>
+
+<EditText
+    android:id="@+id/usercode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="75dp"
+    android:layout_y="267dp"
+    android:ems="10"
+    android:inputType="textPassword" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="20dp"
+    android:layout_y="282dp"
+    android:text="密    码" />
+
+</AbsoluteLayout>

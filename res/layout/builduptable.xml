@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/afterlogin"
+    android:layout_height="fill_parent" >
+
+
+	<CheckBox
+	    android:id="@+id/java"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="9dp"
+	    android:layout_y="100dp"
+	    android:text="College English"
+	    android:textColor="#000000"
+	    android:textSize="18sp" />
+
+	<CheckBox
+	    android:id="@+id/gdsx"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="9dp"
+	    android:layout_y="70dp"
+	    android:text="Swimming"
+	    android:textColor="#000000"
+	    android:textSize="18sp" />
+	
+	<CheckBox
+	    android:id="@+id/database"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="9dp"
+	    android:layout_y="130dp"
+	    android:text="Java"
+	    android:textColor="#000000"
+	    android:textSize="18sp" />
+
+	<TextView
+	    android:id="@+id/myTxt"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_x="9dp"
+	    android:layout_y="37dp"
+	    android:text="Abbe Wang 's course"
+	    android:textColor="#000000"
+	    android:textSize="20sp" />
+	
+	<TextView
+	    android:id="@+id/shezhisuccess"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_x="9dp"
+	    android:layout_y="240dp"
+	    
+	    android:textColor="#000000"
+	    android:textSize="18sp" />
+	
+	<Button
+        android:id="@+id/goback"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="400dp"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/sure"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="400dp"
+        android:text="Add new class" />
+    
+     <Button
+        android:id="@+id/modify"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="300dp"
+        android:text="Modify" />
+     
+      <Button
+        android:id="@+id/check"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="300dp"
+        android:text="Check attendance" />
+      
+      <Button
+        android:id="@+id/attend"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="350dp"
+        android:text="Students attending the class" />
+    
+</AbsoluteLayout>

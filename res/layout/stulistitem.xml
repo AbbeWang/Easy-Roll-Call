@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>  
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+         android:layout_width="fill_parent" android:layout_height="wrap_content"    
+         android:layout_marginRight="3.0dip" android:layout_weight="1.0"  
+         android:orientation="horizontal" android:descendantFocusability="blocksDescendants">   
+         <CheckBox android:id="@+id/isCheakBox" android:layout_width="0dp" android:layout_height="0dp"   
+             android:layout_alignParentLeft="true" />  
+         <!-- 日报图片 -->    
+         <ImageView android:id="@+id/coursePic" android:contentDescription="coursePic"  
+             android:layout_width="30dp" android:layout_height="30dp"    
+             android:layout_marginTop="3.0dip" android:src="@drawable/course"    
+             android:layout_toRightOf="@id/isCheakBox" android:layout_centerVertical="true"
+             android:layout_marginLeft="5dp"/>   
+         <!--附件名称 -->    
+         <TextView  
+             android:id="@+id/dailyName"  
+             android:layout_width="wrap_content"  
+             android:layout_height="wrap_content"  
+             android:layout_toRightOf="@id/coursePic"  
+             android:text="Abbe Wang 's course" 
+             android:layout_centerVertical="true"  
+             android:textColor="#000000"  
+             android:textSize="20.0sp" />  
+          <ImageButton android:id="@+id/deleteAttachment"    
+             android:layout_width="20dp" android:layout_height="20dp"    
+             android:layout_marginTop="3.0dip" android:background="@drawable/delete"    
+             android:layout_centerVertical="true" android:focusable="false"   
+             android:layout_alignParentRight="true" android:layout_marginRight="10dp"/> 
+
+<ImageButton android:id="@+id/refreshAttachment"    
+             android:layout_width="20dp" android:layout_height="20dp"    
+             android:layout_marginTop="3.0dip" android:background="@drawable/refresh"    
+             android:layout_centerVertical="true" android:focusable="false"   
+             android:layout_alignParentRight="true" android:layout_marginRight="30dp"/>
+
+
+         <!--附件名称 -->    
+     </RelativeLayout>    

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:maxSdkVersion="19"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+    <application
+        android:name="com.example.test3.Location"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.test3.MainActivity"
+            android:configChanges="orientation|keyboardHidden"            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.test3.OnlinePeople"></activity>
+        <activity android:name="Afterlogin"></activity>
+        <activity android:name="com.example.test3.Zhuce"></activity>
+        <activity android:name="com.example.test3.ZhuceSuccess"></activity>
+        <activity android:name="com.example.test3.ZhuceFalse"></activity>
+        <activity android:name="com.example.test3.BuildUpTable"></activity>
+        <activity android:name="com.example.test3.Java"></activity>
+        <activity android:name="com.example.test3.BuildClass"></activity>
+        <activity android:name="com.example.test3.CheckBoxList"></activity>
+        <activity android:name="com.example.test3.SearchClass"></activity>
+        <activity android:name="com.example.test3.FindClass"></activity>
+        <activity android:name="com.example.test3.BuildupList"></activity>
+        <activity android:name="com.example.test3.NameList"></activity>
+        
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

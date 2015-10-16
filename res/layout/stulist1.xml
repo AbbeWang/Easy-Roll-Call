@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>  
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:orientation="vertical"  
+     android:layout_width="fill_parent"  
+     android:layout_height="fill_parent"  
+     android:background="@drawable/afterlogin">  
+     
+     <RelativeLayout   
+             android:layout_width="fill_parent"   
+             android:layout_height="wrap_content" 
+             android:layout_marginTop="10dp"  
+             android:layout_alignParentTop="true">  
+             
+         <ImageButton android:id="@+id/exitAttachment"    
+             android:layout_width="35dp" android:layout_height="35dp"    
+             android:background="@drawable/log_out"    
+             android:focusable="false"   
+             android:layout_alignParentLeft="true" android:layout_marginLeft="10dp"
+             android:layout_marginTop="0dp"/> 
+             
+         <TextView android:id="@+id/all_check_btn"   
+             android:text="   Abbe Wang 's Class"
+             android:textSize="20dp"
+             android:textStyle="bold"
+             android:layout_toRightOf="@id/exitAttachment"
+             android:layout_width="wrap_content"   
+             android:layout_height="wrap_content"    
+             />
+         
+         <Button
+             android:id="@+id/addclass"
+             android:text="Add new class"
+             android:textSize="18dp"
+             android:layout_width="wrap_content"   
+             android:layout_height="wrap_content" 
+             android:layout_marginTop="35dp"   
+             android:layout_alignParentLeft="true"/>
+         
+         <Button
+             android:id="@+id/checkposition"
+             android:text="Check position"
+             android:textSize="18dp"
+             android:layout_width="wrap_content"   
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/addclass" 
+             android:layout_marginTop="35dp"   
+             />
+         
+         
+     </RelativeLayout>
+     
+     
+         <ListView  
+             android:id="@id/android:list" 
+             android:layout_marginTop="100dp" 
+             android:layout_height="wrap_content"  
+             android:layout_width="fill_parent"  
+             android:fadingEdge="none"  
+             android:cacheColorHint="#00000000"/>  
+  </RelativeLayout>  

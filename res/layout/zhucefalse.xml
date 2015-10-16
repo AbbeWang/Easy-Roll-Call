@@ -1,0 +1,24 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/zhuceshibai"
+    >
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="51dp"
+   	    android:layout_y="57dp"
+   	    android:text="@string/zhucefalse"
+   	    android:textColor="#000000" />
+
+   	<Button
+   	    android:id="@+id/relogin"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="1dp"
+   	    android:layout_y="368dp"
+   	    android:text="重新注册" />
+   	
+</AbsoluteLayout>

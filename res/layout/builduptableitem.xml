@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>  
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+         android:layout_width="fill_parent" android:layout_height="wrap_content"    
+         android:layout_marginRight="3.0dip" android:layout_weight="1.0"  
+         android:orientation="horizontal" android:descendantFocusability="blocksDescendants">   
+         <CheckBox android:id="@+id/isCheakBox1" android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"   
+             android:layout_alignParentLeft="true" />  
+         <!-- 日报图片 -->    
+         <ImageView android:id="@+id/bookPic" android:contentDescription="coursePic"  
+             android:layout_width="40dp" android:layout_height="40dp"    
+             android:layout_marginTop="3.0dip" android:src="@drawable/book"    
+             android:layout_toRightOf="@id/isCheakBox1" android:layout_centerVertical="true"
+             android:layout_marginLeft="5dp"/>   
+         <!--附件名称 -->    
+           
+          <ImageButton android:id="@+id/modify1"    
+             android:layout_width="30dp" android:layout_height="30dp"    
+             android:layout_marginTop="3.0dip" android:background="@drawable/modify"    
+             android:layout_centerVertical="true" android:focusable="false"   
+             android:layout_alignParentRight="true" android:layout_marginRight="37dp"/>
+          
+          <ImageButton android:id="@+id/deleteAttachment1"    
+             android:layout_width="30dp" android:layout_height="30dp"    
+             android:layout_marginTop="3.0dip" android:background="@drawable/delete"    
+             android:layout_centerVertical="true" android:focusable="false"   
+             android:layout_alignParentRight="true" android:layout_marginRight="5dp"/>
+
+<ImageButton android:id="@+id/stulist"    
+             android:layout_width="25dp" android:layout_height="30dp"    
+             android:layout_marginTop="3.0dip" android:background="@drawable/list"    
+             android:layout_centerVertical="true" android:focusable="false"   
+             android:layout_alignParentRight="true" android:layout_marginRight="70dp"/>
+
+<TextView  
+             android:id="@+id/jim"  
+             android:layout_width="wrap_content"  
+             android:layout_height="wrap_content"  
+             android:layout_toRightOf="@id/bookPic"  
+             android:layout_toLeftOf="@id/stulist"
+             android:text="Jim Zhang 's course" 
+             android:layout_centerVertical="true"  
+             android:textColor="#000000"  
+             android:textSize="20.0sp" />
+
+
+         <!--附件名称 -->    
+     </RelativeLayout>    

@@ -1,0 +1,100 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/zhucebg1"
+    >
+
+   	<Button
+   	    android:id="@+id/basic_button2"
+   	    android:layout_width="150dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="160dp"
+   	    android:layout_y="360dp"
+   	    android:text="Cancel" />
+   	<Button
+   	    android:id="@+id/basic_button3"
+   	    android:layout_width="150dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="5dp"
+   	    android:layout_y="360dp"
+   	    android:text="OK" />
+
+   	<EditText
+   	    android:id="@+id/code"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="1dp"
+   	    android:layout_y="278dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..."
+   	    android:inputType="textPassword" />
+   	
+
+   	<EditText
+   	    android:id="@+id/department"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="1dp"
+   	    android:layout_y="208dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..." />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="180dp"
+   	    android:text="Department"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="30dp"
+   	    android:text="Staff Number"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	<EditText
+   	    android:id="@+id/number"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="2dp"
+   	    android:layout_y="58dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..."
+   	    android:textColor="#ff0000" />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="105dp"
+   	    android:text="Name"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	<EditText
+   	    android:id="@+id/name"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="1dp"
+   	    android:layout_y="131dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..." />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="2dp"
+   	    android:layout_y="250dp"
+   	    android:text="Password"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	
+		
+</AbsoluteLayout>

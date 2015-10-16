@@ -1,0 +1,173 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3"
+    >
+
+   	<Button
+   	    android:id="@+id/back"
+   	    android:layout_width="150dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="160dp"
+   	    android:layout_y="390dp"
+   	    android:text="Back" />
+   	<Button
+   	    android:id="@+id/search1"
+   	    android:layout_width="150dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="5dp"
+   	    android:layout_y="390dp"
+   	    android:text="Search" />
+   	
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="5dp"
+   	    android:text="Enter 1 or more key words"
+   	    android:textSize="20dp"
+   	    android:textStyle="bold"
+   	    android:textColor="#000000" />
+   	
+
+   	<EditText
+   	    android:id="@+id/department"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="1dp"
+   	    android:layout_y="300dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..." />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="270dp"
+   	    android:text="Class Place"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="45dp"
+   	    android:text="Course Name"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	<EditText
+   	    android:id="@+id/number"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="2dp"
+   	    android:layout_y="73dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..."
+   	    android:textColor="#000000" />
+   	
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="118dp"
+   	    android:text="Teacher's Name"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+   	
+   	<EditText
+   	    android:id="@+id/number"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="2dp"
+   	    android:layout_y="145dp"
+   	    android:ems="10"
+   	    android:hint="Click to enter..."
+   	    android:textColor="#000000" />
+
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="0dp"
+   	    android:layout_y="190dp"
+   	    android:text="Time of the 1st class"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+
+   	<EditText
+   	    android:id="@+id/year"
+   	    android:layout_width="63dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="1dp"
+   	    android:layout_y="220dp"
+   	    android:ems="10"
+   	    android:hint="Year" />
+   	
+   	<TextView
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="63dp"
+   	    android:layout_y="220dp"
+   	    android:text="_"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+   	
+   	<EditText
+   	    android:id="@+id/month"
+   	    android:layout_width="61dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="69dp"
+   	    android:layout_y="220dp"
+   	    android:ems="10"
+   	    android:hint="Mon" />
+   	
+   	<TextView
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="130dp"
+   	    android:layout_y="220dp"
+   	    android:text="_"
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+   	<EditText
+   	    android:id="@+id/day"
+   	    android:layout_width="61dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="136dp"
+   	    android:layout_y="220dp"
+   	    android:ems="10"
+   	    android:hint="Day" />
+   	
+   	<EditText
+   	    android:id="@+id/minute"
+   	    android:layout_width="55dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="200dp"
+   	    android:layout_y="220dp"
+   	    android:ems="10"
+   	    android:hint="Min" />
+   	
+   	<TextView
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="255dp"
+   	    android:layout_y="220dp"
+   	    android:text=" : "
+   	    android:textSize="20dp"
+   	    android:textColor="#000000" />
+   	<EditText
+   	    android:id="@+id/second"
+   	    android:layout_width="55dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_x="260dp"
+   	    android:layout_y="220dp"
+   	    android:ems="10"
+   	    android:hint="Sec" />
+
+   	
+
+   	
+		
+</AbsoluteLayout>

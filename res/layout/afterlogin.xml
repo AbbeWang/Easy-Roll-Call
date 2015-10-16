@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/afterlogin"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/java1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="40dip"
+        android:text="JAVA程序设计" />
+    <Button
+        android:id="@+id/computer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="90dip"
+        android:text="计算机组成及原理" />
+    <Button
+        android:id="@+id/database1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="140dip"
+        android:text="数据库原理" />
+    <Button
+        android:id="@+id/football1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="190dip"
+        android:text="体育-足球一" />
+
+    <Button
+        android:id="@+id/linemaths1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="240dip"
+        android:text="线性代数" />
+
+    <Button
+        android:id="@+id/gdsx1"
+        android:layout_width="66dp"
+        android:layout_height="82dp"
+        android:layout_x="234dp"
+        android:layout_y="104dp"
+        android:background="@drawable/gaodengshuxue" />
+
+    <Button
+        android:id="@+id/builduptable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-39dp"
+        android:layout_y="364dp"
+        android:background="@drawable/kebiaoshezhi" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="364dp"
+        android:background="@drawable/tuichudenglu" />
+
+   
+    <TextView
+        android:id="@+id/tishi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="314dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</AbsoluteLayout>

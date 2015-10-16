@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>  
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+         android:layout_width="fill_parent" android:layout_height="wrap_content"    
+         android:layout_marginRight="3.0dip" android:layout_weight="1.0"  
+         android:orientation="horizontal" android:descendantFocusability="blocksDescendants">   
+         <CheckBox android:id="@+id/isCheakBox2" android:layout_width="0dp" 
+             android:layout_height="0dp"   
+             android:layout_alignParentLeft="true"
+              />  
+         <!-- 日报图片 -->    
+         <ImageView android:id="@+id/smile" android:contentDescription="smile"  
+             android:layout_width="40dp" android:layout_height="40dp"    
+             android:layout_marginTop="3.0dip" android:src="@drawable/smile1"    
+             android:layout_toRightOf="@id/isCheakBox2" android:layout_centerVertical="true"
+             android:layout_marginLeft="5dp"/>   
+         <!--附件名称 -->    
+         <TextView  
+             android:id="@+id/stuName"  
+             android:layout_width="wrap_content"  
+             android:layout_height="wrap_content"  
+             android:layout_toRightOf="@id/smile"  
+             android:text="Abbe Wang" 
+             android:layout_centerVertical="true"  
+             android:textColor="#000000"  
+             android:textSize="20.0sp" /> 
+         <!--附件名称 -->    
+     </RelativeLayout>    

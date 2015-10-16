@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="JAVA程序设计"   	       
+        android:textColor="#000000" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="老师：吴俊杰\n助教：刘洪甫"
+        android:textColor="#000000" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="上课时间：\n上课地点："
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/wjj"
+        android:layout_width="108dp"
+        android:layout_height="145dp"
+        android:src="@drawable/wjj" />
+    
+    <ImageView
+        android:id="@+id/lhf"
+        android:layout_width="118dp"
+        android:layout_height="110dp"
+        android:src="@drawable/lhf" />
+    
+    <Button
+   	    android:id="@+id/look1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="查看一起上Java的小伙伴儿们"    />"
+    
+    <TextView
+        android:id="@+id/javacircle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+    
+    <Button
+   	    android:id="@+id/look2"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="查看到课童鞋"    />
+
+    
+
+</LinearLayout>
